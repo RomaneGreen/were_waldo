@@ -1,5 +1,5 @@
 
-alert('wow');
+
 
 
 function timer(){

@@ -1,6 +1,6 @@
 
 function timer(){
-    var sec = 30;
+    var sec = 5;
     var timer = setInterval(function(){
         document.getElementById('timerdisplay').innerHTML='Time left:'+'00:'+sec;
         sec--;
