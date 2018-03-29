@@ -20,11 +20,7 @@ function timer() {
 
 window.onload = timer();
 
-function foundWaldo() {
-  console.log("yo");
-}
 
-foundWaldo();
 
 //gets coordinates
 function showCoords(event) {
