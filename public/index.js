@@ -1,0 +1,1 @@
+function showCoords(o){var n="X coords: "+o.clientX+", Y coords: "+o.clientY;document.getElementById("info").innerHTML=n}alert("working"),showCoords();
