@@ -1,1 +1,1 @@
-function showCoords(o){var n="X coords: "+o.clientX+", Y coords: "+o.clientY;document.getElementById("info").innerHTML=n}alert("working"),showCoords();
+function foundWaldo(){console.log("yo")}function showCoords(o){var n=o.clientX,e="X coords: "+n+", Y coords: "+o.clientY;document.getElementById("info").innerHTML=e,856<n&&n<=945&&alert("Congrats!You found Wally!")}alert("working"),foundWaldo(),showCoords(event);
