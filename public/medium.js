@@ -1,6 +1,27 @@
 
 alert('wow');
 
+
+function timer(){
+    var sec = 15;
+    var timer = setInterval(function(){
+        document.getElementById('timerdisplay').innerHTML='Time left:'+'00:'+sec;
+        sec--;
+        if (sec < 1) {
+            clearInterval(timer);
+            alert('sorry times up!');
+            window.history.back();
+        }if (sec < 10){
+    document.getElementById('timerdisplay').innerHTML='Time left:'+'00:0'+sec;
+        }
+    }, 1000);
+}
+
+window.onload = timer();
+
+
+
+
 function showCoords(event) {
     var x = event.clientX;
     var y = event.clientY;
@@ -8,6 +29,7 @@ function showCoords(event) {
     document.getElementById("info").innerHTML = coords;
     if (x >= 551 &&  x <= 570) {
         alert('Congrats!You found Wally!');
+        window.history.back();
     }
 }
 

@@ -62,3 +62,11 @@ img[alt~="hard"]{
     bottom:1rem;
 
 }
+
+#timerdisplay{
+    color: rgb(221, 19, 19);
+    z-index: 1;
+    position: absolute;
+    right: 1rem;
+    bottom:38.5rem;
+}

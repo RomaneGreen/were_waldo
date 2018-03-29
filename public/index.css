@@ -68,3 +68,10 @@ img[alt~="hard"] {
   position: absolute;
   left: 80rem;
   bottom: 1rem; }
+
+#timerdisplay {
+  color: #dd1313;
+  z-index: 1;
+  position: absolute;
+  right: 1rem;
+  bottom: 38.5rem; }

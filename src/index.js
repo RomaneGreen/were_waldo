@@ -1,4 +1,22 @@
-alert('working')
+alert('working');
+
+
+function timer(){
+    var sec = 30;
+    var timer = setInterval(function(){
+        document.getElementById('timerdisplay').innerHTML='Time left:'+'00:'+sec;
+        sec--;
+        if (sec < 1) {
+            clearInterval(timer);
+            alert('sorry times up!');
+            window.history.back();
+        }if (sec < 10){
+    document.getElementById('timerdisplay').innerHTML='Time left:'+'00:0'+sec;
+        }
+    }, 1000);
+}
+
+window.onload = timer();
 
 
 function foundWaldo(){
@@ -16,8 +34,10 @@ foundWaldo();
     document.getElementById("info").innerHTML = coords;
     if (x > 856 &&  x <= 945) {
         alert('Congrats!You found Wally!');
+        window.history.back();
     }
     
 };
 
 showCoords(event);
+
