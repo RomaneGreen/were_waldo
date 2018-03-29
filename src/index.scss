@@ -1,10 +1,12 @@
+//resets
+
 * {
   background-color: #f1f1f1;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+// images
 img[alt~="easy"] {
   height: 38rem;
   width: 70rem;
@@ -22,6 +24,7 @@ img[alt~="hard"] {
   bottom: 11rem;
 }
 
+//buttons
 .ease {
   background-color: rgb(231, 230, 230);
   display: flex;
@@ -60,7 +63,7 @@ img[alt~="hard"] {
   bottom: 1rem;
   font-family: "Gloria Hallelujah", cursive;
 }
-
+//timer
 #timerdisplay {
   color: rgb(221, 19, 19);
   z-index: 1;
@@ -69,6 +72,7 @@ img[alt~="hard"] {
   bottom: 38.5rem;
 }
 
+//main css
 .title {
   color: black;
   text-align: center;
@@ -92,6 +96,8 @@ img[alt~="hard"] {
   align-items: center;
 }
 
+
+//decorations and transitions
 a {
   font-family: "Gloria Hallelujah", cursive;
   color: black;

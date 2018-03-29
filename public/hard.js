@@ -1,3 +1,5 @@
+
+//sets the timer
 function timer() {
   var sec = 5;
   var timer = setInterval(function() {
@@ -18,11 +20,12 @@ function timer() {
 
 window.onload = timer();
 
+//get cordinates
 function showCoords(event) {
   var x = event.clientX;
   var y = event.clientY;
   var coords = "X coords: " + x + ", Y coords: " + y;
-//   document.getElementById("info").innerHTML = coords;
+//   document.getElementById("info").innerHTML = coords; user shouldnt see coordinates
   if (x > 714 && x <= 730) {
     alert("Congrats!You found Wally!");
     window.history.back();
