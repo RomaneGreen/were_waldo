@@ -61,7 +61,7 @@ img[alt~="hard"] {
   position: absolute;
   left: 40rem;
   bottom: 38.5rem;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: "Gloria Hallelujah", cursive; }
 
 .btn {
   color: #141214;
@@ -69,7 +69,7 @@ img[alt~="hard"] {
   position: absolute;
   left: 80rem;
   bottom: 1rem;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: "Gloria Hallelujah", cursive; }
 
 #timerdisplay {
   color: #dd1313;
@@ -81,13 +81,13 @@ img[alt~="hard"] {
 .title {
   color: black;
   text-align: center;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: "Gloria Hallelujah", cursive; }
 
 .subtitle {
   color: black;
   text-align: center;
   border-bottom: tan;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: "Gloria Hallelujah", cursive; }
 
 .modes {
   font-size: bold;
@@ -108,7 +108,7 @@ img[alt~="hard"] {
   align-items: center; }
 
 a {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   color: black;
   text-decoration: none; }
 
