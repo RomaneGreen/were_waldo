@@ -1,162 +1,146 @@
-*{
-    background-color: #f1f1f1;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img[alt~="easy"]{
-height: 38rem;
-width: 70rem;
+img[alt~="easy"] {
+  height: 38rem;
+  width: 70rem;
 }
 
-img[alt~="medium"]{
-    height: 38rem;
-    width: 50rem;
-
+img[alt~="medium"] {
+  height: 38rem;
+  width: 50rem;
 }
 
-img[alt~="hard"]{
-    height: 20rem;
-    width: 30rem;
-    position: absolute;
-    bottom: 11rem;
-
+img[alt~="hard"] {
+  height: 20rem;
+  width: 30rem;
+  position: absolute;
+  bottom: 11rem;
 }
 
-.ease{
-    
-    background-color: rgb(231, 230, 230);
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+.ease {
+  background-color: rgb(231, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.med{
-    background-color: rgb(177, 51, 51);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.med {
+  background-color: rgb(177, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hard{
-    background-color: rgb(179, 207, 17);
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+.hard {
+  background-color: rgb(179, 207, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-#info{
-    color: rgb(20, 18, 20);
-    z-index: 1;
-    position: absolute;
-    left: 40rem;
-    bottom:38.5rem;
-    font-family: 'Gloria Hallelujah', cursive;
-
-}
-.btn{
-    color: rgb(20, 18, 20);
-    z-index: 1;
-    position: absolute;
-    left: 80rem;
-    bottom:1rem;
-    font-family: 'Gloria Hallelujah', cursive;
-
-
+#info {
+  color: rgb(20, 18, 20);
+  z-index: 1;
+  position: absolute;
+  left: 40rem;
+  bottom: 38.5rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-#timerdisplay{
-    color: rgb(221, 19, 19);
-    z-index: 1;
-    position: absolute;
-    right: 1rem;
-    bottom:38.5rem;
+.btn {
+  color: rgb(20, 18, 20);
+  z-index: 1;
+  position: absolute;
+  left: 80rem;
+  bottom: 1rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-
-
-
-.title{
-    color:black;
-    text-align: center;
-    
-    font-family: 'Gloria Hallelujah', cursive;
-   
+#timerdisplay {
+  color: rgb(221, 19, 19);
+  z-index: 1;
+  position: absolute;
+  right: 1rem;
+  bottom: 38.5rem;
 }
 
-.subtitle{
-    color: black;
-    text-align: center;
-    
-    border-bottom: tan;
-    font-family: 'Gloria Hallelujah', cursive;
-   
+.title {
+  color: black;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-.modes{
-    font-size: bold;
-    margin-top:8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-   
-    
+.subtitle {
+  color: black;
+  text-align: center;
+  border-bottom: tan;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-a{
-    font-family: 'Gloria Hallelujah', cursive;
-    color:black;
-    text-decoration: none;
+.modes {
+  font-size: bold;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
 }
 
-a:hover{
-    font-weight: bold;
-    color:rgb(3, 66, 184);
-}
-.ez{
-    background: green;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-    
+a {
+  font-family: "Gloria Hallelujah", cursive;
+  color: black;
+  text-decoration: none;
 }
 
-.md{
-    background: orange;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+a:hover {
+  font-weight: bold;
+  color: rgb(3, 66, 184);
 }
 
-.hd{
-    background:red;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+.ez {
+  background: green;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
-.ez:hover{
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
+.md {
+  background: orange;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
-.md:hover{
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
+.hd {
+  background: red;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
-.hd:hover{
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
+.ez:hover {
+  -moz-transform: translate(-2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
 }
 
+.md:hover {
+  -moz-transform: translate(-2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+}
+
+.hd:hover {
+  -moz-transform: translate(-2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+}
