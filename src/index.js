@@ -1,8 +1,10 @@
 
+
+
 //sets the timer
 function timer() {
-  var sec = 30;
-  var timer = setInterval(function() {
+  let sec = 30;
+  let timer = setInterval(function() {
     document.getElementById("timerdisplay").innerHTML =
       "Time left:" + "00:" + sec;
     sec--;
